@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.content {
+  margin-top: 60px;
+}
+
+.ui-slider-handle,
+.ui-button {
+  outline: none;
+}
+
+.slider-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.color-slider {
+  width: 300px;
+}
+
+fieldset {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  padding: 5px;
+  width: 300px;
+  border: 1px solid rgb(130, 130, 130);
+  border-radius: 5px;
+}
+
+#slider {
+  background: linear-gradient(
+    to right,
+    black 0%,
+    red 14.3%,
+    yellow 28.6%,
+    lime 42.9%,
+    cyan 57.2%,
+    blue 71.5%,
+    magenta 85.8%,
+    white 100%
+  );
+}
